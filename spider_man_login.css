@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    border:0px;
+  }
+#container-imagem {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./img/Spider-Man-No-Way-Home-poster.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logoButton{
+    height: 15vh;
+    width: 10vw;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#intro{
+    font-weight: bold;
+    color: blue;
+}
+
+.logar{
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: blue;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 9px rgb(42, 30, 212);
+    margin-top: 10px;
+    margin-left:10px;
+}
+.titulo_game {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-weight:bold;
+    padding: 40px;
+    font-size: 50px;
+    margin:0px,0px,0px,30px;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+.logar:hover {
+    background-color: rgb(42, 30, 212);
+    box-shadow: 0 5px red;
+    color: red;
+    transform: translateY(4px);
+}
+nav{
+    top: 5;
+    font-size:30px;
+}
+.texto{
+    font:bold;
+    font-size: 30px;
+    color: blue;
+    background: white;
+    align-content:  space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    width: 300px;
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 77px;
+    box-shadow: 0 5px red;
+}
+.texto:hover {
+    background-color: white;
+    box-shadow: 0 5px rgb(42, 30, 212);
+    color: red;
+    transform: translateY(4px);
+}
+.video{
+    position: relative;
+    display: flex;
+    justify-content: flex-end !important;
+}
+#copy{
+    display: flex;
+    position:fixed;
+    bottom:0;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    font-size: 18px;
+    color: #f11313;
+    justify-content:  center;
+    background: black;
+}
+
+
+@media screen { 
+  
+    /* start of screen rules. */ 
+    
+    /* Generic pane rules */
+    body { margin: 0 }
+    .row, .col { overflow: hidden; position: absolute; }
+    .row { left: 0; right: 0; }
+    .col { top: 0; bottom: 0; }
+    .scroll-x { overflow-x: auto; }
+    .scroll-y { overflow-y: auto; }
+  
+    .header.row { height: 75px; top: 0; }
+    .body.row { top: 75px; bottom: 50px; }
+    .footer.row { height: 50px; bottom: 0; }
+    
+    /* end of screen rules. */ 
+}
