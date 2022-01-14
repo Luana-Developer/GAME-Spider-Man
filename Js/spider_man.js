@@ -2,11 +2,16 @@ var andrew_garfield = "./question1_andrew_garfield.html";
 var tom_holland = "./question1_tom_holland.html";
 var tobey_maguire = "./question1_tobey_maguire.html";
 var home = "./spider_man_home.html";
+var home2 = "../Spider-Man-GAME/html/spider_man_home.html";
 var videoTrailler = src="./video/Trailler.mp4"; 
+var venceu = href="../venceu.html";
 
 function reload() {
     window.location.href=home;
 }
+// function reload() {
+//     window.location.href=home2;
+// }
 //mudar pagina com o click//
 function andrewGarfield() {
     window.location.href=andrew_garfield;
@@ -57,7 +62,7 @@ function Andrew3(){
         break;
         } 
         else if (question ==2){
-            window.location.href = href="venceu.html";;
+            window.location.href = venceu;
         break;
         }else {
             alert("Digite 1 ou 2");
@@ -102,7 +107,7 @@ function Tobey6(){
                 window.location.href = href="gameOver.html";
             break;
         } else if (question ==2){
-            window.location.href = href="venceu.html";
+            window.location.href = venceu;
         break;
         }else {
             alert("Digite 1 ou 2");
@@ -142,12 +147,12 @@ function Tom8(){
 function Tom9(){
     while (question != 1 || question != 2){
         var question = prompt(
-            '1-Venon. \n 2-Venon');
+            '1-Venon \n 2-Venon');
         if(question == 1){
-            window.location.href = href="venceu.html";
+            window.location.href = venceu;
         break;
         } else if (question ==2){
-            window.location.href = href="venceu.html";
+            window.location.href = venceu;
         break;
         }else {
             alert("Digite 1 ou 2");
