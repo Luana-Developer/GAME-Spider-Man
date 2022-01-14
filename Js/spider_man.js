@@ -2,8 +2,7 @@ var andrew_garfield = "./question1_andrew_garfield.html";
 var tom_holland = "./question1_tom_holland.html";
 var tobey_maguire = "./question1_tobey_maguire.html";
 var home = "./spider_man_home.html";
-var vitoria = src="./venceu.html"
-var videoTrailler = src="./video/Trailler.mp4";
+var videoTrailler = src="./video/Trailler.mp4"; 
 
 function reload() {
     window.location.href=home;
@@ -56,8 +55,9 @@ function Andrew3(){
         if(question == 1){
             window.location.href = href="gameOver.html";
         break;
-        } else if (question ==2){
-            window.location.href = vitoria;
+        } 
+        else if (question ==2){
+            window.location.href = href="venceu.html";;
         break;
         }else {
             alert("Digite 1 ou 2");
@@ -102,7 +102,7 @@ function Tobey6(){
                 window.location.href = href="gameOver.html";
             break;
         } else if (question ==2){
-            window.location.href = vitoria;
+            window.location.href = href="venceu.html";
         break;
         }else {
             alert("Digite 1 ou 2");
@@ -142,18 +142,18 @@ function Tom8(){
 function Tom9(){
     while (question != 1 || question != 2){
         var question = prompt(
-            '1-Venom. \n 2-Venom');
+            '1-Venon. \n 2-Venon');
         if(question == 1){
-            window.location.href = vitoria;
+            window.location.href = href="venceu.html";
         break;
         } else if (question ==2){
-            window.location.href = vitoria;
+            window.location.href = href="venceu.html";
         break;
         }else {
             alert("Digite 1 ou 2");
         }
     }
-} 
+}
 // function trailerVideo(){
 //     document.getElementById("trailer").innerHTML = "Olá, eu sou o Homem Aranha, me chamo Peter, Peter Parker!"; 
 //     document.getElementById("trailer2").innerHTML = "Alias somos Peter Parker. Não entendeu? Assiste um trechinho aí!";
