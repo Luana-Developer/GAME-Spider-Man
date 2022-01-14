@@ -1,5 +1,5 @@
 # Spider-Man-GAME
-##Jode de perguntas sobre o Homem Aranha
+## Jogo de perguntas sobre o Homem Aranha.
 ![Logo](img/home-mask-black.jpg)
 ## Pagina Criada com HTML, CSS JS.
 ## Usando o programa Visual Studio CODE para montagem da página.
