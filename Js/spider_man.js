@@ -56,7 +56,7 @@ function Andrew3(){
             window.location.href = href="gameOver.html";
         break;
         } else if (question ==2){
-            window.location.href = href="venceu.html";
+            window.location.href = src="../html/venceu.html";
         break;
         }else {
             alert("Digite 1 ou 2");
@@ -101,7 +101,7 @@ function Tobey6(){
                 window.location.href = href="gameOver.html";
             break;
         } else if (question ==2){
-            window.location.href = href="venceu.html";
+            window.location.href = href="../html/venceu.html";
         break;
         }else {
             alert("Digite 1 ou 2");
@@ -143,10 +143,10 @@ function Tom9(){
         var question = prompt(
             '1-Venom. \n 2-Venom');
         if(question == 1){
-            window.location.href = href="venceu.html";
+            window.location.href = href="../html/venceu.html";
         break;
         } else if (question ==2){
-            window.location.href = href="venceu.html";
+            window.location.href = href="../html/venceu.html";
         break;
         }else {
             alert("Digite 1 ou 2");
