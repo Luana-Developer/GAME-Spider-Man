@@ -11,7 +11,7 @@
     text-align: center;
     height: 100vh;
     width: 100vw;
-    background-image: url("./img/venceu.jpg");
+    background-image: url("../img/andrew1");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -108,14 +108,14 @@ main{
     justify-content:space-between;
     flex-flow: column wrap;
     padding: 30px 50px;
-    margin-top: 35%;
+    margin-top: 150px;
 }
 .pergunta{
     justify-content: flex-end;
     align-items: center;
     align-content: center;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 header{
     position: fixed;

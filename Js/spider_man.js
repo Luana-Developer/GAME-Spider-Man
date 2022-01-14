@@ -3,7 +3,7 @@ var tom_holland = "./question1_tom_holland.html";
 var tobey_maguire = "./question1_tobey_maguire.html";
 var home = "./spider_man_home.html";
 var videoTrailler = src="./video/Trailler.mp4";
-var venceu = href="venceu.html";
+
 function reload() {
     window.location.href=home;
 }
@@ -56,7 +56,7 @@ function Andrew3(){
             window.location.href = href="gameOver.html";
         break;
         } else if (question ==2){
-            window.location.href = venceu;
+            window.location.href = href="venceu.html";
         break;
         }else {
             alert("Digite 1 ou 2");
