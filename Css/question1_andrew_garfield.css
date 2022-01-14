@@ -13,7 +13,6 @@
     width: 100vw;
     background-image: url("../img/andrew1");
     background-repeat: no-repeat;
-    background-size: cover;
 }
 .titulo_game {
     display: flex;
